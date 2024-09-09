@@ -1,0 +1,85 @@
+
+#box2{
+      background-color: ghostwhite;
+      margin: 0px 510px;
+      padding: 10px 15px;
+      border-radius: 30px ;
+      box-shadow: 1px 1px 10px  rgb(91, 92, 91);
+      flex-wrap: wrap;
+      flex: 1;
+      min-width: 300px;
+
+
+
+}
+#box2 input{
+      box-shadow: 5px 5px 5px black;
+      padding: 10px;
+      border-radius: 13px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: rgb(250, 255, 255);
+      width: 200px;
+
+}
+#b2{
+      padding: 10px;
+      width: 70px;
+      border-radius: 20px;
+      border-style: solid;
+      background-color: rgb(0, 0, 0);
+      color: white;
+}
+#b1{
+      padding: 10px;
+      width: 70px;
+      border-radius: 20px;
+      border-style: solid;
+      background-color: rgb(0, 0, 0);
+      color: white;
+}
+#b1:hover{
+      background-color: rgb(34, 143, 34);
+      color: black;
+}
+#b2:hover{
+      background-color: rgb(34, 143, 34);
+      color: black;
+
+}
+
+body{
+      background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230819/pngtree-blue-background-vectors-wallpaper-images-free-downloa-image_13094037.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: sans-serif;
+      
+}
+#Last{
+      /* font-weight: 10px; */
+      text-decoration: underline;
+      text-align: center;
+}
+#para{
+      box-shadow: 2px 2px 10px black;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      width: 200px;
+      padding: 7px;
+      border-radius: 15px;
+}
+#para:hover{
+      background-color: rgb(51, 154, 38);
+}
+#imgdiv{
+      background-color: whitesmoke;
+      margin:-10px ;
+      border-radius: 180px 10px;
+      border-left:solid black 5px;
+      border-right:solid black 5px;
+      box-shadow: 1px 1px 10px rgb(9, 12, 46);
+}
+
+
+
+

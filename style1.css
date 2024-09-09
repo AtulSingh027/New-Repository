@@ -1,0 +1,54 @@
+#div1{
+      font-family: sans-serif;
+      padding: 50px;
+      margin : 10px;
+      width: 500px;
+      background-image:100px;
+      background-color:rgb(89, 15, 53);
+      border-radius: 60px;
+      border-style: solid;
+      border-width: 5px;
+      border-color: rgb(110, 0, 212) rgb(190, 202, 57) rgb(196, 46, 46) rgb(182, 105, 105) ;
+      color:black;
+      
+}
+body{
+      background-color:white;
+      color:black;
+}
+.Forget{
+      width: 135px;
+      
+      color: blueviolet;
+}
+.button1{
+      border-radius: 10px;
+      border-width: 2px;
+      border-style: solid;
+      background-color: black;
+      color: white;
+      border-color: rgb(151, 72, 224) rgb(163, 163, 77) red rgb(125, 59, 59);
+}
+.button1:hover{
+      background-color: rgb(194, 32, 145);
+      color: white;
+}
+.form1{
+      background-color: rgb(228, 220, 228);
+      border-style: solid;
+      border-radius: 5px;
+}
+.form1:hover{
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+}
+.Forget:hover{
+      color:black;
+      
+}
+#foot{
+      padding: 100px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+}

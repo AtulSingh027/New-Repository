@@ -1,0 +1,28 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     
+}
+body{
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+}
+main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 750px;
+      background-image: url("https://i.pinimg.com/originals/be/f4/84/bef484c1c2679790df69058bcd570d53.jpg");
+      
+}
+#content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 100px auto;
+      background-color: none;
+      border: 2px solid red;
+}
+

@@ -1,0 +1,184 @@
+*{
+      margin: 0px;
+      padding: 0px;
+}
+body{
+      background-color: rgb(0, 0, 0);
+      font-family: sans-serif;
+      color: white;
+}
+nav{
+      background-color: rgb(0, 0, 0);
+      padding-bottom: 1px;
+      color: rgb(255, 255, 255);
+      display: flex; 
+      justify-content: space-between; 
+      position: sticky;
+      top: 0px;  
+}
+nav img{
+      padding: 5px 5px;
+      height: 100px;
+      width: 350px;
+}
+nav ul{
+      border: solid 2px black;
+      padding: 25px 300px;
+      padding-right:15px ;
+      display: flex;
+      justify-content: space-evenly;
+      column-gap:20px;
+      font-size: 16px;
+      
+}
+nav ul li{
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: 0.2s;
+
+}
+nav ul li:hover{
+      padding: 7px;
+      background-color:ghostwhite;
+      color: black;
+      border-radius: 7px ;
+      transform: scale(1.1);      
+
+
+}
+
+#firstdiv{
+      background-color: rgb(0, 0, 0);
+      background-image: url("https://www.cnet.com/a/img/resize/2c77742324aad50c1b18cfbd9a204a4d5b144f5b/hub/2019/11/11/3eea2a76-cda0-4db8-ab42-86ff6b5e1ece/starlink.jpg?auto=webp&fit=crop&height=675&width=1200");
+      height:700px;
+      padding: 10px;
+      font-size: 15px;
+      overflow: hidden;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+
+      display: flex;
+      justify-content:center;
+      align-items: start;
+      flex-direction: column;
+}
+#b1{
+      padding: 13px;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      background-color:black;
+      color: white;
+      cursor: pointer;
+      transition: 0.1s;
+      border: 1px solid rgb(114, 12, 63);
+}
+#b1:hover{
+      background-color: white;
+      color: rgb(0, 0, 0);
+      transform: scale(1.1);
+}
+#seconddiv{
+      background-color: none;
+      color: white;
+      width: 500px;
+      margin-top: 250px;
+      display: flex;
+      text-align: end;
+      justify-content: end;
+      flex-direction: column;
+      font-size: 25px;
+}
+#seconddiv h4 
+{
+      position: relative;
+      right: 18rem;
+}
+#but{
+      display: flex;
+      align-items:end;
+      justify-content: end;
+      width: 500px;
+      background-color: none;
+      color:white ;
+      position: relative;
+      right: 22.8rem;
+
+}
+
+#Cards{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 600px;
+      padding: 20px;
+      background-color: black;
+      cursor: pointer;
+}
+.Card{
+      height: 450px;
+      width: 430px;
+      background-color:rgb(192, 192, 215);
+      color: rgb(0, 0, 0);
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0px 2px 8px rgb(160, 16, 112);
+      transition: 0.3s;
+      flex-wrap: wrap;
+      min-width: 400px;
+
+
+}
+
+.Card:hover{
+     transform:scale(1.1);
+     background-color: rgb(213, 213, 215);
+     /* transform:rotate(40deg); */
+     /* transform: rotate(2turn); */
+     /* transform: translateY(-20px); */
+     /* transform: scale(1.2) rotate(30deg) translateX(200px); */
+     /* transform: rotate(30deg); */
+     /* transform-origin: bottom left; */
+     /* transform-origin:top right ; */
+}
+
+.Card img{
+      overflow: hidden;
+      height: 60%;
+      width: 100%;
+}
+
+.Card .cardcontent{
+      padding-left: 20px;
+      padding-top: 10px;
+      user-select: none;
+      flex-wrap: wrap;
+}
+
+.cardcontent h3{
+      font-size:15px;
+      margin-bottom: 5px;
+}
+.cardcontent p{
+      color: rgb(46, 44, 44);
+      font-size: 12px;
+      margin-bottom: 5px;
+}
+.cardcontent button{
+   background-color: aqua;
+   width: 100px;
+   padding: 7px;
+   border-radius: 15px;
+   border: none;
+   transition: 0.2s;
+}
+.cardbut:hover{
+      background-color: rgb(226, 43, 189);
+      cursor: pointer;
+      transform: scale(1.2);
+
+}

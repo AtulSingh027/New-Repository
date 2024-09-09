@@ -1,0 +1,29 @@
+body {
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+  }
+  
+  .Main {
+      width: 80%;
+      height: 500px;
+      border: 2px solid red;
+      margin: 100px auto;
+      display: flex;
+      align-items: center;
+  }
+  .Main .box {
+      width: 30%;
+      height: 200px;
+      margin: 0px auto;
+      border: 1px solid white;
+      background-color: teal;
+      transition: transform 0.5s ease; 
+      transform-style: preserve-3d; 
+      aspect-ratio: 1/5;
+
+      
+  }
+  .Main .box:hover {
+  }
+  

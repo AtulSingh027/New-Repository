@@ -1,0 +1,116 @@
+body{
+      background-color: rgb(0, 0, 0);
+      font-family: sans-serif;
+      color: white;
+      animation: color-change-4x 6s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-4x {
+      0% {
+        background: #19dcea;
+      }
+      33.3333% {
+        background: #b22cff;
+      }
+      66.666% {
+        background: #ea2222;
+      }
+      100% {
+        background: #f5be10;
+      }
+    }
+    @keyframes color-change-4x {
+      0% {
+        background: #19dcea;
+      }
+      33.3333% {
+        background: #b22cff;
+      }
+      66.666% {
+        background: #ea2222;
+      }
+      100% {
+        background: #f5be10;
+      }
+    }
+    
+#main{
+      background-color: rgb(37, 30, 30);
+      color: rgb(37, 31, 36);
+      width: 450px;
+      height: 550px;
+      margin: 100px auto ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 25px;
+      box-shadow: 0px 5px 15px rgb(165, 159, 171);
+      transition: 0.3s;
+}
+#main:hover{
+      background-color: rgb(108, 76, 101);
+      transform: scale(1.1);
+      border: 2px solid gold;
+
+}
+.divs{
+      border: 0px solid rgb(189, 37, 153);
+      background-color: rgb(236, 213, 213);
+      padding: 15px 20px;
+      width: 85%;
+      border-radius: 30px;
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: space-between;
+      transition: 0.3s;
+      
+
+}
+.divs:hover{
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* align-items: center; */
+      /* justify-content: space-evenly; */
+
+      transform: translateY(-20px) scale(1.1);
+      background-color: var(--c);
+      color: var(--t);
+      user-select: none;
+      cursor: pointer;
+      box-shadow: 0px 3px 5px var(--c);
+}
+#first{
+      border: 3px solid rgb(74, 37, 37);
+      background-color: rgb(215, 250, 250);
+      color: black;
+      box-shadow: 0px 1px 4px red  ;
+      border-radius: 40px;
+      width: 100%px;
+      margin-left: 400px;
+      margin-right: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.2s;
+      /* position: sticky; */
+      /* top: 1px; */
+      flex-wrap: wrap;
+      min-width: 500px;
+
+      padding: 10px 10px;
+
+}
+#first:hover{
+      transform: scale(1.1) ;
+}
+#designcut{
+      height: 80px;
+      width: 100px;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      left: 340px;
+      top:20px;
+      border-radius: 40px;
+}
+
